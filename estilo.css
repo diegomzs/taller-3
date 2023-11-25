@@ -1,0 +1,61 @@
+
+body{
+    background-image: url(fondocarro.jpg);
+}
+.registro-autos{
+    width: 400px;
+    background-color:#1f53c5;
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+}
+
+.registro-autos h4{
+    font-size: 45px;
+margin-bottom: 20px;
+margin: auto;
+color: black;
+}
+
+.parrafo {
+    font-size: 20px;
+margin-bottom: 20px;
+margin: auto;
+}
+
+.controls{
+    width:100% ;
+    color: white;
+    background-color:#24303c;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border:1px solid white ;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.seleccion{
+    width:100% ;
+    color: white;
+    background-color:#24303c;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border:1px solid white ;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.registro-autos .boton{
+    width: 100%;
+    color: black;
+    background: white;
+    border: none;
+    padding: 12px;
+    margin:16px 0 ;
+    font-size: 16px;
+}

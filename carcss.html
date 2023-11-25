@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de autos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <section class="registro-autos">
+        <h4>Registro de Autos.</h4>
+
+        <p class="parrafo">Seleccione su usuario:</p>
+        <select class="seleccion" name="usuario">
+            <optgroup>
+                <option>--Seleccione una opcion--</option>
+                <option>Vendedor</option>
+                <option>Cliente</option>
+            </optgroup>
+        </select><br>
+
+        <p class="parrafo">Seleccione su pais:</p>
+        <select class="seleccion" name="paises">
+            <optgroup>
+                <option>--Seleccione una opcion--</option>
+                <option>Colombia</option>
+                <option>Venezuela</option>
+                <option>Ecuador</option>
+                <option>Peru</option>
+                <option>Argentina</option>
+                <option>Brasil</option>
+                <option>Uruguay</option>
+                <option>Bolivia</option>
+                <option>Chile</option>
+            </optgroup>
+        </select><br>
+
+        <p class="parrafo">Seleccione el estado del coche:</p>
+        <select class="seleccion" name="estado">
+            <optgroup>
+                <option>--Seleccione una opcion--</option>
+                <option>Con fallas mecanicas</option>
+                <option>En buen estado</option>
+                <option>Nose el estado de mi coche</option>
+            </optgroup>
+        </select><br>
+
+        <p class="parrafo">Seleccione su tipo de coche:</p>
+        <select class="seleccion" name="tipocoche">
+            <optgroup>
+                <option>--Seleccione una opcion--</option>
+                <option>Carro</option>
+                <option>Camioneta</option>
+                <option>Camion</option>
+                <option>Furgoneta</option>
+                <option>Pickup</option>
+            </optgroup>
+        </select><br>
+
+        <p class="parrafo">Seleccione la marca de su coche:</p>
+        <select class="seleccion" name="marca">
+            <optgroup>
+                <option>--Seleccione una opcion--</option>
+                <option>Renault</option>
+                <option>Toyota</option>
+                <option>Chevrolet</option>
+                <option>Mazda</option>
+                <option>Honda</option>
+                <option>Ford</option>
+                <option>Nissan</option>
+            </optgroup>
+        </select><br>
+
+        <p class="parrafo">Seleccione el tipo de combustible:</p>
+        <select class="seleccion" name="combustible">
+            <optgroup>
+                <option>--Seleccione una opcion--</option>
+                <option>Corriente</option>
+                <option>Extra</option>
+                <option>Diesel</option>
+            </optgroup>
+        </select><br>
+   
+        <p class="parrafo">Seleccione si su coche es destacado:</p>
+        <select class="seleccion" name="destacado">
+            <optgroup>
+                <option>--Seleccione una opcion--</option>
+                <option>SI</option>
+                <option>NO</option>
+            </optgroup>
+        </select><br>
+
+        <input class="controls" type="text" name="modelo" value="" placeholder="Ingrese el modelo de su coche" ><br>
+        <input class="controls" type="text" name="año" value="" placeholder="Ingrese el año de su coche" ><br>
+        <input class="controls" type="number" name="motor" value="" placeholder="Ingrese el motor de su coche" ><br>
+        <input class="controls" type="text" name="fechapu" value="" placeholder="Ingrese la fecha de publicacion de su coche" ><br>
+        <input class="controls" type="text" name="detalles-coche" value="" placeholder="Ingrese los detalles de su coche" ><br>
+        <input class="controls" type="number" name="caja" value="" placeholder="Ingrese la caja en la cual va a realizar el pago" >
+        <input class="controls" type="text" name="moneda" value="" placeholder="Ingrese el tipo de moneda para realizar el pago" ><br>
+        <input class="controls" type="number" name="precio" value="" placeholder="Ingrese el valor a pagar" ><br>
+        <input class="controls" type="text" name="pic1" value="" placeholder="Ingrese una descripcion de su coche" ><br>
+        <input class="controls" type="text" name="pic2" value="" placeholder="Ingrese una descripcion de su coche" ><br>
+        <input class="controls" type="text" name="pic3" value="" placeholder="Ingrese una descripcion de su coche" ><br>
+        <button class="boton" type="button" name="boton" onclick="location.href='registro.html'"> Registrarse</button>
+    </section>
+
+</body>
+
+</html>

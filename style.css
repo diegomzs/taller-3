@@ -1,0 +1,54 @@
+
+body{
+background-image: url(fondo.jpg);
+}
+
+.registro-usuarios{
+    width: 400px;
+    background-color:#24303c;
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+}
+.registro-usuarios h4 {
+font-size: 45px;
+margin-bottom: 20px;
+margin: auto;
+}
+
+.controls{
+    width:100% ;
+    color: white;
+    background-color:#24303c;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border:1px solid #1f53c5 ;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+.pais{
+    width:100% ;
+    color: white;
+    background-color:#24303c;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border:1px solid #1f53c5 ;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.registro-usuarios .boton{
+    width: 100%;
+    color: white;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    margin:16px 0 ;
+    font-size: 16px;
+
+}
